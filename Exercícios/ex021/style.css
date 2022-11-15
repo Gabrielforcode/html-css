@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(71, 71, 138);
+}
+h1{
+    background-color: blue;
+    border-radius: 10px;
+    text-align: center;
+}
+main{
+    background-color: whitesmoke;
+    width: 700px;
+    margin: auto;
+    border-radius: 10px;
+}
+h2{
+    
+    border-radius: 10px;
+}
+h2:active{
+    background-color: aqua;
+    color: rgb(7, 225, 83);
+    
+}
+h2:hover{
+    background-color: brown;
+}
+p{
+    text-align: justify;
+}

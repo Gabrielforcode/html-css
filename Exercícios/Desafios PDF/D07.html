@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="mapa md/mapa04.png" type="image/x-icon">
+    <style>
+        body{
+            background-color: rgb(82, 82, 168);
+        }
+    </style>
+</head>
+<body>
+    <h1><strong>Imagem flexivel</strong></h1>
+    <p>Você está vendo a imágem completa? Experimento ampliar o tamanho da janela</p>
+    <picture>
+
+        <source media="(min-width:1200px )" srcset="../ex012/paisagem/paisagem-g.png">
+        <source media="(min-width: 700px )" srcset="../ex012/paisagem/paisagem-m.png">
+        <img src="../ex012/paisagem/paisagem-p.png" alt="">
+    </picture>
+
+    
+</body>
+</html>
